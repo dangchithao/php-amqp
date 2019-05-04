@@ -1,6 +1,6 @@
-#RabbitMQ Example with PHP
+# RabbitMQ Example with PHP
 
-##Structure code
+## Structure code
 ```
 |config
 |-- env.php
@@ -19,7 +19,7 @@
 |README.md
 ```
 
-##Setup
+## Setup
 
 Follow by three main steps:
 
