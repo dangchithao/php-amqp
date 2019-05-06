@@ -1,10 +1,10 @@
 <?php
 
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../../vendor/autoload.php';
 
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 
-$config = require_once __DIR__ . '/../../runtime/cache/config.php';
+$config = require_once __DIR__ . '/../../../runtime/cache/config.php';
 
 try {
     $connection = new AMQPStreamConnection($config['host'], $config['port'], $config['username'], $config['password'], $config['v-host']);
