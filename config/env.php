@@ -15,5 +15,8 @@ return [
     'port' => 5672,
     'username' => $url['user'] ?? null,
     'password' => $url['pass'] ?? null,
-    'v-host' => $vhost ?? null
+    'v-host' => $vhost ?? null,
+    'queue' => [
+        'exchange-name' => getenv('EXCHANGE_NAME')
+    ]
 ];
